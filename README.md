@@ -26,14 +26,14 @@ pip install customtkinter
 ```
 3. Lancez le logiciel :
 ```bash
-python gui_updated.py
+python gui.py
 ```
 
 ---
 
 ## Structure des fichiers
 
-- `gui_updated.py` : Interface graphique du logiciel.
+- `gui.py` : Interface graphique du logiciel.
 - `huffman_binary.py` : Module de compression/décompression utilisant l’algorithme de Huffman (lecture/écriture binaire).
 - `output/` : Dossier de sortie pour les fichiers traités.
 
@@ -43,11 +43,11 @@ python gui_updated.py
 
 Pour créer un exécutable Windows :
 ```bash
-pyinstaller --onefile --noconsole gui_updated.py
+pyinstaller --onefile --noconsole gui.py
 ```
 
 ---
 
 ## Auteurs
 
-Projet réalisé par le **Groupe 3** dans le cadre d’un cours de programmation à l’université.
+Projeg réaliser par le groupe 3
